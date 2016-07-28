@@ -1,0 +1,10 @@
+framework module KondutoSDK {
+  umbrella header "KondutoSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module KondutoSDK.Swift {
+    header "KondutoSDK-Swift.h"
+}
